@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-main {
+div.main {
     background-color: white;
     margin: 5vh auto;
     width: 50vw;
@@ -12,10 +12,22 @@ main {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+
 }
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 2rem;
-}   
+}
+
+div.button{
+
+    width: 100%;
+
+}
+button{
+
+    margin: auto;
+
+}
