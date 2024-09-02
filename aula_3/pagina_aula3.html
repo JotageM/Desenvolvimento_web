@@ -8,10 +8,10 @@
 </head>
 <body>
     
-    <h1>Aula 3: Desenvolvimento Web</h1>
+    <h1 id="h1">Aula 3: Desenvolvimento Web</h1>
     <h2>Aqui elaboraremos os temas abordados na aula 3</h2>
     <h3>Aula sobre ferramentas de navegador</h3>
-    <h4>Não sei mais o oque falar</h4>
+    <h4>Não sei mais o que falar</h4>
     <h5>po h5 já é demais</h5>
     <h6>H6 então nao vou nem falar</h6>
 
@@ -39,19 +39,44 @@
         <li>Copa do Brasil</li>
         <li>Libertadores</li>
     </menu>
+    
     <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Optio repudiandae nam consequatur molestias, 
-        tempora       sint quibusdam ex consequuntur quae harum aliquam libero eius ea magnam recusandae. 
-        Repellendus                  autem eaque ipsam.
+        tempora sint quibusdam ex consequuntur quae harum aliquam libero eius ea magnam recusandae. 
+        Repellendus autem eaque ipsam.
     </p>
+    
     <pre>
-
         nome              idade
         Eduardo           49
         Joao              23
         Pedro             22
     </pre>
+
+    <p><a href="https://g1.globo.com">visitar o g1</a></p>
     
+    <p><a href="#h1">visitar o h1</a></p>
+
+    
+    <form action="/get_form" method="GET">
+        <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Sobrenome:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+    
+    <form action="/post_form" method="POST">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
 </body>
 </html>
