@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esse é um documento de Teste</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="exemplo2.css">
 </head>
 <body>
@@ -59,6 +60,25 @@
     <p><a href="#h1">visitar o h1</a></p>
 
     
+    <div class="fundo-azul">
+        <p>Fundos cor do gremio!</p>
+    </div>
+    
+  
+    <div class="tamanho-fixo">
+        <p>nao importa o tamanho da tela irmao, essa parte aqui vai ficar com mesmo tamanho sempre</p>
+    </div>
+    
+    
+    <div class="tamanho-relativo">
+        <p>Essa aqui já é mais tímida, e é relativa ao tamanho da tela, ou seja : Submissa</p>
+    </div>
+
+    
+    <p>
+        Este é um texto normal, mas aqui está um <span class="highlight">span especial</span> com estilo aplicado.
+    </p>
+
     <form action="/get_form" method="GET">
         <label for="fname">Nome:</label><br>
         <input type="text" id="fname" name="fname"><br>
@@ -67,8 +87,6 @@
         <input type="submit" value="Enviar">
     </form>
 
-    
-    
     <form action="/post_form" method="POST">
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email"><br>
@@ -76,7 +94,6 @@
         <input type="password" id="password" name="password"><br><br>
         <input type="submit" value="Enviar">
     </form>
-
 
 </body>
 </html>
